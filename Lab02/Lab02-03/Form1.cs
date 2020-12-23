@@ -35,14 +35,64 @@ namespace Lab02_03
                 MessageBox.Show("Ghế đã được bán!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void KiemTraMau()
+        private int TinhTien()
         {
-            foreach (Control in this.gBox1)
+            int Total = 0;
+            foreach (var control in gBox1.Controls)
+            {
+                if (control.GetType() == typeof(Button) && ((Button)control).BackColor == Color.Yellow)
+                {
+                    switch (((Button)control).Text)
+                    {
+                        case "1":
+                        case "2":
+                        case "3":
+                        case "4":
+                        case "5":
+                            Total += 5000;
+                            break;
+                        case "6":
+                        case "7":
+                        case "8":
+                        case "9":
+                        case "10":
+                            Total += 6500;
+                            break;
+                        case "11":
+                        case "12":
+                        case "13":
+                        case "14":
+                        case "15":
+                            Total += 8000;
+                            break;
+                    }
+                }
+            }
+            return Total;
         }
 
         private void btnSelect_Click(object sender, EventArgs e)
         {
-            
+            foreach (var control in gBox1.Controls)
+            {
+                if (control.GetType() == typeof(Button) && ((Button)control).BackColor == Color.Blue)
+                {
+                    ((Button)control).BackColor = Color.Yellow;
+                }
+            }
+            txtBoxTotal.Text = TinhTien().ToString();
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            foreach (var control in gBox1.Controls)
+            {
+                if (control.GetType() == typeof(Button) && ((Button)control).BackColor == Color.Blue)
+                {
+                    ((Button)control).BackColor = Color.White;
+                }
+            }
+            txtBoxTotal.Text = TinhTien().ToString();
         }
     }
 }
