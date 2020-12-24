@@ -27,6 +27,8 @@ namespace Lab02_01
 
         public static float Chia(float a, float b)
         {
+            if (b == 0)
+                return -1;
             return a/b;
         }
 
@@ -60,6 +62,12 @@ namespace Lab02_01
 
                 if (s == "/")
                 {
+                    if (Chia(v, v1) == -1)
+                    {
+                        txtBoxDapAn.Text = "Không thể chia cho 0";
+                        return;
+                    }
+
                     txtBoxDapAn.Text = Chia(v, v1).ToString();
                 }
             }

@@ -35,7 +35,8 @@ namespace Lab02_02
             {
                 return false;
             }
-
+            if (int.Parse(txtBoxAverage.Text) > 10)
+                return false;
             return true;
         }
 
@@ -125,6 +126,7 @@ namespace Lab02_02
                         MessageBox.Show("Xóa sinh viên thành công", "Thông báo", MessageBoxButtons.OK);
                     }
                 }
+                CapNhatNumber();
             }
             catch (Exception ex)
             {
@@ -148,6 +150,11 @@ namespace Lab02_02
             }
             txtBoxAverage.Text = rows.Cells[3].Value.ToString();
             cBoxFaculty.Text = rows.Cells[4].Value.ToString();
+        }
+
+        private void txtBoxName_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

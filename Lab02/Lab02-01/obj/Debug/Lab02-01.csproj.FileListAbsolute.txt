@@ -8,3 +8,12 @@ C:\Users\ASUS\Desktop\lab02\Lab02\Lab02-01\obj\Debug\Lab02-01.csproj.CoreCompile
 C:\Users\ASUS\Desktop\lab02\Lab02\Lab02-01\obj\Debug\Lab02-01.exe
 C:\Users\ASUS\Desktop\lab02\Lab02\Lab02-01\obj\Debug\Lab02-01.pdb
 C:\Users\ASUS\Desktop\lab02\Lab02\Lab02-01\obj\Debug\Lab02_01.fMayTinh.resources
+D:\PhamNgocDat_1811061744\Lab02\Lab02\Lab02-01\bin\Debug\Lab02-01.exe.config
+D:\PhamNgocDat_1811061744\Lab02\Lab02\Lab02-01\obj\Debug\Lab02-01.exe
+D:\PhamNgocDat_1811061744\Lab02\Lab02\Lab02-01\obj\Debug\Lab02-01.pdb
+D:\PhamNgocDat_1811061744\Lab02\Lab02\Lab02-01\bin\Debug\Lab02-01.exe
+D:\PhamNgocDat_1811061744\Lab02\Lab02\Lab02-01\bin\Debug\Lab02-01.pdb
+D:\PhamNgocDat_1811061744\Lab02\Lab02\Lab02-01\obj\Debug\Lab02-01.csprojResolveAssemblyReference.cache
+D:\PhamNgocDat_1811061744\Lab02\Lab02\Lab02-01\obj\Debug\Lab02_01.fMayTinh.resources
+D:\PhamNgocDat_1811061744\Lab02\Lab02\Lab02-01\obj\Debug\Lab02_01.Properties.Resources.resources
+D:\PhamNgocDat_1811061744\Lab02\Lab02\Lab02-01\obj\Debug\Lab02-01.csproj.GenerateResource.Cache
